@@ -10,6 +10,7 @@
         <parameter key="assetic.filter.typescript.node">%assetic.node.bin%</parameter>
         <parameter key="assetic.filter.typescript.node_paths">%assetic.node.paths%</parameter>
         <parameter key="assetic.filter.typescript.timeout">null</parameter>
+        <parameter key="assetic.filter.typescript.use_absolute_path">false</parameter>
     </parameters>
 
     <services>
@@ -19,6 +20,7 @@
             <argument>%assetic.filter.typescript.node%</argument>
             <call method="setTimeout"><argument>%assetic.filter.typescript.timeout%</argument></call>
             <call method="setNodePaths"><argument>%assetic.filter.typescript.node_paths%</argument></call>
+            <call method="setUseAbsolutePath"><argument>%assetic.filter.typescript.use_absolute_path%</argument></call>
         </service>
     </services>
 </container>

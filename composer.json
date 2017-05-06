@@ -29,7 +29,7 @@
         "symfony/phpunit-bridge": "~2.7|~3.0"
     },
     "conflict": {
-        "twig/twig": "<1.20",
+        "twig/twig": "<1.27",
         "kriswallsmith/spork": "<=0.2"
     },
     "suggest": {
@@ -41,7 +41,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.7-dev"
+            "dev-master": "2.8-dev"
         }
     }
 }
